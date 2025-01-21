@@ -1,0 +1,9 @@
+VideoPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            contentId:
+                type: Item
+                resolve: '@=resolver("EmbedAttributeValue", [value.getAttribute("contentId").getValue()])'

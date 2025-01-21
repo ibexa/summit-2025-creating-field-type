@@ -1,0 +1,9 @@
+BestsellersPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            limit:
+                type: Int
+                resolve: '@=value.getAttribute("limit").getValue()'

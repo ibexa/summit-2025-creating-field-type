@@ -1,0 +1,9 @@
+LandingPageItemConnection:
+    type: relay-connection
+    config:
+        nodeType: LandingPageItem
+        connectionFields:
+            sliceSize:
+                type: Int!
+            orderBy:
+                type: String

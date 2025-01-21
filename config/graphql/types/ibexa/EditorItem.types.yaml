@@ -1,0 +1,51 @@
+EditorItem:
+    type: object
+    inherits:
+        - AbstractItem
+    config:
+        interfaces:
+            - Item
+            - Node
+        fields:
+            firstName:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "first_name", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            lastName:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "last_name", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            userAccount:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "user_account", args]).id'
+            image:
+                type: ImageFieldValue
+                resolve: '@=resolver("ItemFieldValue", [value, "image", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            signature:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "signature", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            position:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "position", args])'
+            department:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "department", args])'
+            location:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "location", args])'
+            phone:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "phone", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            linkedIn:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "linked_in", args])'
+                args:
+                    language: { type: RepositoryLanguage }

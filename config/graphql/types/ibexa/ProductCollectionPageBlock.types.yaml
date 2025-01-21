@@ -1,0 +1,4 @@
+ProductCollectionPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

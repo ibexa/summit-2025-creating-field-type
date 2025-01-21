@@ -1,0 +1,297 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/activity-log/src/bundle/Resources/public/scss/ibexa-activity-log.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --ibexa-hover-color: var(--ibexa-hover-color, $ibexa-color-primary);
+  --ibexa-border-color: var(--ibexa-border-color, $ibexa-color-dark);
+}
+
+@keyframes remove-field {
+  100% {
+    height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes item-remove-pulse {
+  0% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  10% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  20% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0.625rem #f3f3f6;
+  }
+  100% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+}
+@keyframes item-highlight-pulse {
+  0% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  10% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  20% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0.625rem #ecf4ff;
+  }
+  100% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0.25rem 0.125rem 1.0625rem 0 rgba(65, 145, 255, 0.05);
+  }
+}
+@keyframes spinner-animation {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.ibexa-al__content-column--full-width {
+  padding: 0 0.75rem;
+}
+.ibexa-al__content-column--full-width .ibexa-back-to-top-anchor {
+  max-width: 100%;
+}
+
+.ibexa-al-list {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.ibexa-al-list__data-grid-wrapper {
+  width: calc(100% - 16.8125rem);
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #e0e0e8;
+}
+.ibexa-al-list__filters-wrapper {
+  width: 17.1875rem;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #e0e0e8;
+}
+.ibexa-al-list--simple .ibexa-al-list__data-grid-wrapper {
+  width: 100%;
+}
+
+.ibexa-al-list-search-form__empty, .ibexa-al-list-search-form__no-results {
+  grid-area: results;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.25rem;
+}
+.ibexa-al-list-search-form__empty-title, .ibexa-al-list-search-form__empty-subtitle, .ibexa-al-list-search-form__no-results-title, .ibexa-al-list-search-form__no-results-subtitle {
+  color: #71767c;
+}
+.ibexa-al-list-search-form__no-results-subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin-top: 1.875rem;
+}
+.ibexa-al-list-search-form__no-results-subtitle .ibexa-icon {
+  margin-right: 1rem;
+}
+.ibexa-al-list-search-form__no-results-hint {
+  flex-basis: 50%;
+  padding: 0.5rem;
+  display: flex;
+}
+.ibexa-al-list-search-form__spellcheck-suggestion {
+  font-style: italic;
+}
+.ibexa-al-list-search-form__spellcheck-suggestion a {
+  font-style: normal;
+  font-weight: bold;
+}
+.ibexa-al-list-search-form__no-results .ibexa-search-form__spellcheck-suggestion {
+  color: #71767c;
+}
+.ibexa-al-list-search-form__no-results {
+  padding: 0 0 6.25rem;
+}
+
+.ibexa-al-filters {
+  overflow: hidden;
+}
+.ibexa-al-filters__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.ibexa-al-filters__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.ibexa-al-filters .accordion-item {
+  background: transparent;
+}
+.ibexa-al-filters .accordion-item .ibexa-al-filters__item-header-btn {
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-top-color: #e0e0e8;
+  border-bottom-color: transparent;
+  border-style: solid;
+  border-width: 0.0625rem 0;
+  background: transparent;
+}
+.ibexa-al-filters .accordion-item .ibexa-al-filters__item-header-btn .ibexa-icon--toggle {
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+.ibexa-al-filters .accordion-item .ibexa-al-filters__item-header-btn:not(.collapsed) {
+  border-bottom-color: #e0e0e8;
+}
+.ibexa-al-filters .accordion-item .ibexa-al-filters__item-header-btn:not(.collapsed) .ibexa-icon--toggle {
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.ibexa-al-filters .accordion-item .ibexa-al-filters__item-header-btn::after {
+  display: none;
+}
+.ibexa-al-filters .accordion-item:last-of-type .ibexa-al-filters__item-header-btn {
+  border-bottom-color: #e0e0e8;
+}
+.ibexa-al-filters .accordion-item:last-of-type .ibexa-al-filters__item-header-btn.collapsed {
+  border-bottom-color: transparent;
+}
+.ibexa-al-filters__item .ibexa-label {
+  margin: 0;
+  padding: 0;
+}
+.ibexa-al-filters__item--time .ibexa-al-filters__item-content {
+  padding-bottom: 3rem;
+}
+.ibexa-al-filters__item--hidden {
+  display: none;
+}
+.ibexa-al-filters__item-content {
+  padding: 1.5rem 1rem;
+}
+
+.ibexa-al-data-grid {
+  padding: 0 1.5rem 1.5rem;
+}
+.ibexa-al-data-grid--block {
+  padding: 1rem;
+  box-shadow: 0.25rem 1.375rem 2.9375rem 0 rgba(52, 116, 204, 0.05);
+  background-color: #ffffff;
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.75rem;
+}
+.ibexa-al-data-grid--block .ibexa-al-data-grid__data-row-header {
+  padding-top: 0;
+}
+.ibexa-al-data-grid__search-bar {
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #e0e0e8;
+  margin: -0.0625rem -1.5625rem 0 -1.5625rem;
+  box-shadow: 0.25rem 1.375rem 2.9375rem 0 rgba(52, 116, 204, 0.05);
+}
+.ibexa-al-data-grid__search-bar .ibexa-input-text-wrapper--search {
+  width: 28.125rem;
+}
+.ibexa-al-data-grid__data-row-header {
+  padding: 0.5rem 0 0.75rem;
+  border-bottom: 0.0625rem solid #e0e0e8;
+  color: #71767c;
+  font-weight: 600;
+}
+.ibexa-al-data-grid__data-row {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 12% auto 1fr auto;
+  grid-column-gap: 0.25rem;
+  justify-content: left;
+  grid-template-areas: "group-date group-user group-description group-description" "... group-action group-action group-action" "... grouped-logs grouped-logs grouped-logs";
+  margin: 0.25rem 0;
+}
+.ibexa-al-data-grid__data-column {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+.ibexa-al-data-grid__data-column--date {
+  grid-area: group-date;
+  color: #71767c;
+  font-weight: 400;
+}
+.ibexa-al-data-grid__data-column--user {
+  white-space: nowrap;
+  grid-area: group-user;
+}
+.ibexa-al-data-grid__data-column--user .ibexa-user-thumbnail {
+  margin-right: 0.375rem;
+}
+.ibexa-al-data-grid__data-column--description {
+  white-space: nowrap;
+  overflow: hidden;
+  grid-area: group-description;
+}
+.ibexa-al-data-grid__data-column--description > .ibexa-al-data-grid__data-cell--ellipsised {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ibexa-al-data-grid__data-column--actions {
+  grid-area: group-action;
+}
+.ibexa-al-data-grid__data-column--grouped-logs {
+  display: block;
+  width: 100%;
+  grid-area: grouped-logs;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0;
+  background: #f9f9fa;
+  border-radius: 0.5rem;
+  max-height: 22.75rem;
+  overflow-y: hidden;
+}
+.ibexa-al-data-grid__data-column--overflowed {
+  overflow-y: auto;
+}
+.ibexa-al-data-grid__toggle-gouped-logs-btn .ibexa-icon {
+  margin: 0.25rem 0 0 0.75rem;
+  transform: rotate(180deg);
+  transition: transform 0.2s;
+}
+.ibexa-al-data-grid__toggle-gouped-logs-btn.collapsed .ibexa-icon {
+  transform: rotate(0deg);
+}
+.ibexa-al-data-grid__gouped-logs-list {
+  margin: 0 0 0 3rem;
+  padding: 0;
+}
+.ibexa-al-data-grid .ibexa-table-header {
+  border: none;
+}
+.ibexa-al-data-grid__data-cell--username {
+  font-weight: bold;
+}
+.ibexa-al-data-grid .ibexa-table-header {
+  padding: 1.5rem 0 1rem;
+}
+.ibexa-al-data-grid__empty-data-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30rem;
+  color: #71767c;
+}

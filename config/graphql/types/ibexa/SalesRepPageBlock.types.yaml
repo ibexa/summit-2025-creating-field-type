@@ -1,0 +1,4 @@
+SalesRepPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

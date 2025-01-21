@@ -1,0 +1,7 @@
+FormPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFormBuilder/blocks/form.html.twig'
+                description: 'Default block layout'

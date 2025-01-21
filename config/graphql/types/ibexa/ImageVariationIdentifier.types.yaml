@@ -1,0 +1,12 @@
+ImageVariationIdentifier:
+    type: enum
+    config:
+        values:
+            original: {  }
+            reference: {  }
+            small: {  }
+            tiny: {  }
+            medium: {  }
+            large: {  }
+            gallery: {  }
+            ezplatform_admin_ui_profile_picture_user_menu: {  }

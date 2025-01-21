@@ -1,0 +1,7 @@
+ProductsByCategoriesPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/product_catalog/dashboard/blocks/product_by_category.html.twig'
+                description: 'Default block layout'

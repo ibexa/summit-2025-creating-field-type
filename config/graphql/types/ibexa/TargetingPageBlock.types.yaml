@@ -1,0 +1,9 @@
+TargetingPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            defaultContentId:
+                type: Item
+                resolve: '@=resolver("EmbedAttributeValue", [value.getAttribute("default_content_id").getValue()])'

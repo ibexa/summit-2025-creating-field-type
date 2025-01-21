@@ -1,0 +1,7 @@
+TargetingPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/segmentation/page_builder/blocks/targeting.html.twig'
+                description: 'Default block layout'

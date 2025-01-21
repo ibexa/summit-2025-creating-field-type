@@ -1,0 +1,7 @@
+GalleryPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/gallery.html.twig'
+                description: 'Default block layout'

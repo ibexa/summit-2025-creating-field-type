@@ -1,0 +1,182 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/dashboard/src/bundle/Resources/public/scss/dashboard.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-db-main-container.ibexa-db-preview {
+  height: 100vh;
+}
+.ibexa-db-main-container.ibexa-db-preview .ibexa-back-to-top-scroll-container {
+  padding-bottom: 0;
+}
+.ibexa-db-main-container.ibexa-db-preview ~ .ibexa-back-to-top {
+  display: none;
+}
+.ibexa-db-main-container > .ibexa-main-container__content-column.ibexa-back-to-top-scroll-container {
+  padding-bottom: 0;
+  background-color: #f3f3f6;
+}
+.ibexa-db-main-container > .ibexa-main-container__content-column > .container {
+  padding: 0;
+}
+.ibexa-db-main-container > .ibexa-main-container__content-column > .container > .ibexa-page-header-wrapper {
+  position: relative;
+  padding: 1rem 2rem;
+  box-shadow: 0.25rem 1.375rem 2.9375rem 0 rgba(65, 145, 255, 0.05);
+  background-color: #ffffff;
+}
+.ibexa-db-main-container > .ibexa-main-container__content-column > .container .ibexa-page-title__title {
+  margin-bottom: 0;
+}
+.ibexa-db-main-container .ibexa-page-header-wrapper {
+  background-image: url("/bundles/ibexadashboard/img/header-dashboard-background.png");
+  background-position: right 6.25rem top 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ibexa-main-container .container {
+  max-width: none;
+}
+
+.ibexa-db-actions-popup-menu {
+  max-width: 15.625rem;
+}
+.ibexa-db-actions-popup-menu .ibexa-btn__label {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ibexa-db-banner {
+  display: flex;
+  margin-bottom: 1.875rem;
+  position: relative;
+  overflow: hidden;
+}
+.ibexa-db-banner--hidden {
+  display: none;
+}
+.ibexa-db-banner__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  border-radius: 0.625rem;
+  background-image: url("/bundles/ibexadashboard/img/banner-dashboard-background.svg");
+  background-size: cover;
+}
+.ibexa-db-banner__content {
+  padding: 2.5rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: center;
+}
+.ibexa-db-banner__desc {
+  font-size: 1rem;
+}
+.ibexa-db-banner__customize-dashboard {
+  margin-top: 2rem;
+}
+.ibexa-db-banner__close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.ibexa-db-banner__graph-img {
+  margin: 0 3.125rem 0 0;
+}
+
+@media only screen and (max-width: 1650px) {
+  .ibexa-db-banner__desc {
+    font-size: 0.875rem;
+  }
+}
+.ibexa-db-btn {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0.875rem 0.9375rem;
+  outline: none;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.ibexa-db-btn--tertiary {
+  color: #ae1164;
+  fill: #ae1164;
+  background-color: transparent;
+}
+.ibexa-db-btn--tertiary:hover {
+  box-shadow: 0 1.375rem 1.5rem 0 rgba(174, 17, 100, 0.05);
+  background-color: #f6e7ef;
+  color: #ae1164;
+  opacity: 0.9;
+}
+.ibexa-db-btn--tertiary:hover .ibexa-icon {
+  fill: #ae1164;
+}
+.ibexa-db-btn--tertiary:active, .ibexa-db-btn--tertiary:focus-visible {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0.25rem rgba(174, 17, 100, 0.2);
+  color: #780c45;
+}
+.ibexa-db-btn--tertiary.disabled, .ibexa-db-btn--tertiary[disabled], .ibexa-db-btn--tertiary:disabled {
+  color: #a0a4a8;
+  fill: #a0a4a8;
+}
+.ibexa-db-btn .ibexa-icon {
+  fill: #ae1164;
+  margin-right: 0.25rem;
+}
+
+.ibexa-db-header__date {
+  color: #71767c;
+  font-size: 1rem;
+}
+.ibexa-db-header__actions {
+  justify-self: flex-end;
+}
+
+.ibexa-db-blocks {
+  background-color: #f3f3f6;
+  padding: 1.5rem 2rem 1.75rem;
+}
+.ibexa-db-blocks .landing-page__block {
+  margin-bottom: 1.75rem;
+}
+.ibexa-db-blocks .ibexa-card__title {
+  padding-top: 0;
+}
+.ibexa-db-blocks .ibexa-tab-content {
+  margin-bottom: 0;
+}
+.ibexa-db-blocks--preview .c-pb-block-preview__inner > * {
+  pointer-events: none;
+}
+
+.ibexa-db-zones__block {
+  margin-bottom: 2.25rem;
+}
+.ibexa-db-zones__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.ibexa-db-zones__row--double {
+  --columns: 3;
+}
+.ibexa-db-zones__row--triple {
+  --columns: 2;
+}
+.ibexa-db-zones__zone--small {
+  grid-column: span 1;
+  --columns: 2;
+}
+.ibexa-db-zones__zone--big {
+  grid-column: span 2;
+  --columns: 3;
+}

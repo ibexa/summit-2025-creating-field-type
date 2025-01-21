@@ -1,0 +1,45 @@
+ItemGroupCustomerPortal:
+    type: object
+    inherits:
+        - DomainContentTypeGroup
+    config:
+        fields:
+            _types:
+                type: ItemGroupCustomerPortalTypes
+                resolve: {  }
+            customerPortals:
+                type: CustomerPortalItemConnection
+                description: 'No description available'
+                resolve: '@=resolver("ItemsOfTypeAsConnection", ["customer_portal", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            customerPortal:
+                type: CustomerPortalItem
+                description: 'No description available'
+                resolve: '@=resolver("ItemOfType", [args, "customer_portal"])'
+                args:
+                    contentId: { type: Int, description: 'Content ID of the customer_portal' }
+                    remoteId: { type: String, description: 'Content remote ID of the customer_portal' }
+                    locationId: { type: Int, description: 'Location ID of the customer_portal' }
+                    locationRemoteId: { type: String, description: 'Location remote ID of the customer_portal' }
+                    urlAlias: { type: String, description: 'URL alias of the customer_portal' }
+            customerPortalPages:
+                type: CustomerPortalPageItemConnection
+                description: 'No description available'
+                resolve: '@=resolver("ItemsOfTypeAsConnection", ["customer_portal_page", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            customerPortalPage:
+                type: CustomerPortalPageItem
+                description: 'No description available'
+                resolve: '@=resolver("ItemOfType", [args, "customer_portal_page"])'
+                args:
+                    contentId: { type: Int, description: 'Content ID of the customer_portal_page' }
+                    remoteId: { type: String, description: 'Content remote ID of the customer_portal_page' }
+                    locationId: { type: Int, description: 'Location ID of the customer_portal_page' }
+                    locationRemoteId: { type: String, description: 'Location remote ID of the customer_portal_page' }
+                    urlAlias: { type: String, description: 'URL alias of the customer_portal_page' }

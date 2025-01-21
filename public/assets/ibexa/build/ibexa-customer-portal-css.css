@@ -1,0 +1,437 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/corporate-account/src/bundle/Resources/public/scss/ibexa-customer-portal.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --ibexa-hover-color: var(--ibexa-hover-color, $ibexa-color-primary);
+  --ibexa-border-color: var(--ibexa-border-color, $ibexa-color-dark);
+}
+
+@keyframes remove-field {
+  100% {
+    height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes item-remove-pulse {
+  0% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  10% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  20% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0.625rem #f3f3f6;
+  }
+  100% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+}
+@keyframes item-highlight-pulse {
+  0% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  10% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  20% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0.625rem #ecf4ff;
+  }
+  100% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0.25rem 0.125rem 1.0625rem 0 rgba(65, 145, 255, 0.05);
+  }
+}
+@keyframes spinner-animation {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.ibexa-ca-invitation-table__link-expired {
+  color: #71767c;
+  font-size: 0.75rem;
+}
+.ibexa-ca-invitation-table__link-expired .ibexa-icon {
+  fill: #71767c;
+}
+
+.ibexa-ca-invite-members .ibexa-user-invitation-modal__labels,
+.ibexa-ca-invite-members .ibexa-user-invitation-modal__entry {
+  grid-template-columns: 1fr 1fr 3rem;
+}
+.ibexa-ca-invite-members__entry-email-wrapper {
+  margin-right: 1rem;
+}
+
+.ibexa-ca-members-table__thumbnail {
+  vertical-align: bottom;
+  margin-right: 0.5rem;
+}
+
+.ibexa-ca-preferred-method-of-contact.ibexa-ca-preferred-method-of-contact {
+  display: block;
+  margin-top: 0;
+}
+
+.ibexa-ca-user-status-change-confirmation-modal__question {
+  font-weight: bold;
+}
+.ibexa-ca-user-status-change-confirmation-modal__note {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.ibexa-ca-banner {
+  background-image: url("/bundles/ibexacorporateaccount/img/registration-banner-background.png");
+  background-size: cover;
+  background-position: bottom;
+  padding: 4rem 0;
+  color: #ffffff;
+}
+.ibexa-ca-banner__container {
+  display: flex;
+}
+
+.ibexa-ca-contact {
+  display: flex;
+}
+.ibexa-ca-contact__billing-address-wrapper {
+  flex-grow: 1;
+  border-radius: 0.625rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin-right: 1.5rem;
+  background: #f9f9fa;
+}
+.ibexa-ca-contact__billing-address-wrapper .ibexa-table-header {
+  margin-top: 1.875rem;
+}
+
+.ibexa-ca-customer-portal__header-title, .ibexa-ca-customer-portal__header-user {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.ibexa-ca-dashboard {
+  margin: 0 3rem 3rem;
+}
+.ibexa-ca-dashboard__title {
+  margin-bottom: 3rem;
+}
+.ibexa-ca-dashboard__content {
+  display: flex;
+}
+.ibexa-ca-dashboard__data {
+  flex-grow: 1;
+  padding: 1.125rem;
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.625rem;
+  margin-left: 1.125rem;
+}
+.ibexa-ca-dashboard__tiles {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.ibexa-ca-dashboard__tile {
+  position: relative;
+  height: 10rem;
+  width: 18.75rem;
+  padding: 1.5rem;
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.625rem;
+  margin-right: 2rem;
+  box-shadow: 0.25rem 1.375rem 1.1875rem -0.625rem rgba(65, 145, 255, 0.05);
+}
+.ibexa-ca-dashboard__tile-data {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.ibexa-ca-dashboard__tile-title {
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.ibexa-ca-dashboard__table-wrapper {
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.625rem;
+  padding: 1.5rem;
+}
+
+.ibexa-ca-main-header {
+  color: #ffffff;
+  width: 100%;
+  height: 5.5625rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.3125rem;
+  background: #131c26;
+  border-bottom: 0.0625rem solid rgba(65, 145, 255, 0.4);
+}
+.ibexa-ca-main-header__brand-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.ibexa-ca-main-header__brand {
+  margin-bottom: 0;
+  display: inline-block;
+}
+.ibexa-ca-main-header__brand-image {
+  max-width: 7.5rem;
+  max-height: 2rem;
+}
+.ibexa-ca-main-header__user-menu-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ibexa-ca-main-header__username-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  border: none;
+  color: #ffffff;
+}
+.ibexa-ca-main-header__username-btn::after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: 0.5rem;
+  border-left: 0.25rem solid transparent;
+  border-right: 0.25rem solid transparent;
+  border-top: 0.25rem solid #ffffff;
+}
+.ibexa-ca-main-header__user-popup-menu {
+  z-index: 1060;
+  position: absolute;
+  top: 3.75rem;
+}
+
+.ibexa-ca-main-menu {
+  width: 16.5rem;
+  height: 100%;
+  overflow: auto;
+  background: #131c26;
+}
+.ibexa-ca-main-menu__items, .ibexa-ca-main-menu__subgroup-items {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  list-style: none;
+}
+.ibexa-ca-main-menu__items {
+  padding: 0.5rem 0.375rem;
+}
+.ibexa-ca-main-menu__subgroup-items {
+  padding: 0;
+}
+.ibexa-ca-main-menu__item {
+  margin: 0.125rem 0;
+}
+.ibexa-ca-main-menu__subgroup {
+  margin-top: 0.75rem;
+  border-top: 0.0625rem solid #1a3a66;
+}
+.ibexa-ca-main-menu__subgroup-title, .ibexa-ca-main-menu__item-link {
+  padding: 0.625rem 0.625rem 0.625rem 0.25rem;
+}
+.ibexa-ca-main-menu__subgroup-title {
+  color: #86868b;
+  font-size: 0.75rem;
+  margin: 0 0.375rem;
+}
+.ibexa-ca-main-menu__item-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: 0 0.375rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border-radius: 0.625rem;
+  border: 0.125rem solid transparent;
+  height: 3rem;
+  overflow: hidden;
+}
+.ibexa-ca-main-menu__item-link:focus {
+  color: #ffffff;
+  border-color: #1a3a66;
+}
+.ibexa-ca-main-menu__item-link:hover {
+  color: #4191ff;
+  border-color: transparent;
+  text-decoration: none;
+}
+.ibexa-ca-main-menu__item-link.active {
+  color: #4191ff;
+  background-color: #1a3a66;
+}
+
+.ibexa-ca-my-profile__about {
+  border-bottom: 0.0625rem solid #e0e0e8;
+  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+.ibexa-ca-my-profile__about, .ibexa-ca-my-profile__sign-in {
+  display: flex;
+}
+.ibexa-ca-my-profile__header {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+.ibexa-ca-my-profile__edit-label {
+  margin: 0;
+}
+.ibexa-ca-my-profile__edit-btn-wrapper {
+  margin-left: -0.875rem;
+}
+.ibexa-ca-my-profile__details {
+  flex-grow: 2;
+}
+
+.ibexa-ca-registration-banner {
+  display: flex;
+  align-items: center;
+  max-width: 75rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+.ibexa-ca-registration-banner__info {
+  flex-grow: 1;
+}
+.ibexa-ca-registration-banner__steps {
+  margin-left: 3.125rem;
+  width: 22.75rem;
+}
+.ibexa-ca-registration-banner__step-content {
+  font-weight: 600;
+}
+.ibexa-ca-registration-banner__step:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.ibexa-ca-registration-confirmation__wrapper {
+  max-width: 70vw;
+  margin: 3.75rem auto 6.25rem auto;
+  display: flex;
+  justify-content: center;
+}
+.ibexa-ca-registration-confirmation__fancy-image {
+  height: fit-content;
+}
+.ibexa-ca-registration-confirmation__info {
+  margin-left: 3rem;
+}
+.ibexa-ca-registration-confirmation__info-title {
+  margin-top: 2.5rem;
+}
+.ibexa-ca-registration-confirmation__info-title, .ibexa-ca-registration-confirmation__approval-info, .ibexa-ca-registration-confirmation__link-info, .ibexa-ca-registration-confirmation__after-info {
+  margin-bottom: 1.5rem;
+}
+
+.ibexa-ca-registration-form {
+  max-width: 75rem;
+  padding: 0 4rem;
+  margin: 4rem auto;
+}
+.ibexa-ca-registration-form__fields {
+  max-width: 40.625rem;
+}
+.ibexa-ca-registration-form__title {
+  margin-top: 4rem;
+}
+.ibexa-ca-registration-form__submit-btn {
+  margin-top: 2rem;
+}
+.ibexa-ca-registration-form .ibexa-field-edit--ibexa_address .ibexa-field-edit__label-wrapper {
+  display: none;
+}
+.ibexa-ca-registration-form .ibexa-field-edit--ibexa_address .ibexa-field-edit__data {
+  border: none;
+  padding: 0;
+}
+.ibexa-ca-registration-form .ibexa-field-edit--ibexa_address .ibexa-input--small,
+.ibexa-ca-registration-form .ibexa-field-edit--ibexa_address .ibexa-dropdown--small .ibexa-dropdown__selection-info {
+  height: 3rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  border-radius: 0.625rem;
+}
+.ibexa-ca-registration-form .ibexa-field-edit .ibexa-form-error {
+  min-height: 0;
+}
+
+.ibexa-ca-registration {
+  overflow: auto;
+  width: 100%;
+}
+
+.ibexa-ca-user-profile {
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.625rem;
+  padding: 1.5rem 3.625rem 1.5rem 3.5rem;
+}
+.ibexa-ca-user-profile__thumbnail-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.ibexa-ca-user-profile__thumbnail {
+  height: 10.5625rem;
+  width: 10.5625rem;
+}
+.ibexa-ca-user-profile__thumbnail--img {
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 50%;
+}
+.ibexa-ca-user-profile__info {
+  width: 12.5rem;
+}
+.ibexa-ca-user-profile__name {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.ibexa-ca-user-profile__phone-group, .ibexa-ca-user-profile__email-group {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.ibexa-ca-user-profile__phone-label, .ibexa-ca-user-profile__email-label, .ibexa-ca-user-profile__email-info-label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.ibexa-ca-user-profile__phone-label .ibexa-icon, .ibexa-ca-user-profile__email-label .ibexa-icon, .ibexa-ca-user-profile__email-info-label .ibexa-icon {
+  margin-right: 0.25rem;
+  fill: #71767c;
+}
+.ibexa-ca-user-profile__email {
+  word-break: break-all;
+}
+.ibexa-ca-user-profile--vertical {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 1.5rem;
+}
+.ibexa-ca-user-profile--vertical .ibexa-ca-user-profile__name-group {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.ibexa-ca-address-book .ibexa-ca-billing-address-table {
+  margin-bottom: 3rem;
+}

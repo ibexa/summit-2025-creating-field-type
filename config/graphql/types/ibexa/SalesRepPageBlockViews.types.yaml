@@ -1,0 +1,7 @@
+SalesRepPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/customer_portal/page_builder/blocks/sales_rep.html.twig'
+                description: 'Default block layout'

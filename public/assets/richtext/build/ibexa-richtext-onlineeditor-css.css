@@ -1,0 +1,764 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/fieldtype-richtext/src/bundle/Resources/public/scss/ckeditor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-field-edit--ezrichtext .ibexa-data-source,
+.ibexa-data-source--richtext {
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck.ck-content,
+.ibexa-data-source--richtext .ck.ck-content {
+  min-height: 6.25rem;
+  padding: 0 1.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget,
+.ibexa-data-source--richtext .ck-widget {
+  transition: none;
+  border-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget:hover, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table:hover,
+.ibexa-data-source--richtext .ck-widget:hover,
+.ibexa-data-source--richtext .ck-widget.table:hover {
+  outline-color: #ae1164;
+  outline: none;
+  border: 0.0625rem solid #ae1164;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_with-selection-handle .ck-widget__selection-handle, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_with-selection-handle:hover .ck-widget__selection-handle,
+.ibexa-data-source--richtext .ck-widget.ck-widget_with-selection-handle .ck-widget__selection-handle,
+.ibexa-data-source--richtext .ck-widget.ck-widget_with-selection-handle:hover .ck-widget__selection-handle {
+  left: -0.0625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_with-selection-handle:hover .ck-widget__selection-handle, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget:not(.ck-widget_selected) > .ck-widget__type-around > .ck-widget__type-around__button,
+.ibexa-data-source--richtext .ck-widget.ck-widget_with-selection-handle:hover .ck-widget__selection-handle,
+.ibexa-data-source--richtext .ck-widget:not(.ck-widget_selected) > .ck-widget__type-around > .ck-widget__type-around__button {
+  background: #ae1164;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_selected, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_selected:hover,
+.ibexa-data-source--richtext .ck-widget.ck-widget_selected,
+.ibexa-data-source--richtext .ck-widget.ck-widget_selected:hover {
+  outline-color: #131c26;
+  outline: none;
+  border: 0.0625rem solid #131c26;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_with-selection-handle.ck-widget_selected .ck-widget__selection-handle, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_with-selection-handle.ck-widget_selected:hover .ck-widget__selection-handle, .ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.ck-widget_selected > .ck-widget__type-around > .ck-widget__type-around__button,
+.ibexa-data-source--richtext .ck-widget.ck-widget_with-selection-handle.ck-widget_selected .ck-widget__selection-handle,
+.ibexa-data-source--richtext .ck-widget.ck-widget_with-selection-handle.ck-widget_selected:hover .ck-widget__selection-handle,
+.ibexa-data-source--richtext .ck-widget.ck-widget_selected > .ck-widget__type-around > .ck-widget__type-around__button {
+  background: #131c26;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table,
+.ibexa-data-source--richtext .ck-widget.table,
+.ibexa-data-source--richtext .ck-widget table {
+  border-radius: 0 0.625rem 0.625rem 0.625rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tbody,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tbody,
+.ibexa-data-source--richtext .ck-widget.table tbody,
+.ibexa-data-source--richtext .ck-widget table tbody {
+  border-radius: 0 0.625rem 0.625rem 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table td:not(:first-child),
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table td:not(:first-child),
+.ibexa-data-source--richtext .ck-widget.table td:not(:first-child),
+.ibexa-data-source--richtext .ck-widget table td:not(:first-child) {
+  border-left: 0;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:not(:first-child) td,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:not(:first-child) td,
+.ibexa-data-source--richtext .ck-widget.table tr:not(:first-child) td,
+.ibexa-data-source--richtext .ck-widget table tr:not(:first-child) td {
+  border-top: 0;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:first-child,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:first-child,
+.ibexa-data-source--richtext .ck-widget.table tr:first-child,
+.ibexa-data-source--richtext .ck-widget table tr:first-child {
+  border-top-right-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:first-child td:last-child,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:first-child td:last-child,
+.ibexa-data-source--richtext .ck-widget.table tr:first-child td:last-child,
+.ibexa-data-source--richtext .ck-widget table tr:first-child td:last-child {
+  border-top-right-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:last-child,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:last-child,
+.ibexa-data-source--richtext .ck-widget.table tr:last-child,
+.ibexa-data-source--richtext .ck-widget table tr:last-child {
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:last-child td:first-child,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:last-child td:first-child,
+.ibexa-data-source--richtext .ck-widget.table tr:last-child td:first-child,
+.ibexa-data-source--richtext .ck-widget table tr:last-child td:first-child {
+  border-bottom-left-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget.table tr:last-child td:last-child,
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ck-widget table tr:last-child td:last-child,
+.ibexa-data-source--richtext .ck-widget.table tr:last-child td:last-child,
+.ibexa-data-source--richtext .ck-widget table tr:last-child td:last-child {
+  border-bottom-right-radius: 0.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source blockquote,
+.ibexa-data-source--richtext blockquote {
+  margin: 1rem 2.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezconfig],
+.ibexa-data-source--richtext [data-ezelement=ezconfig] {
+  display: none;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembed],
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembedinline],
+.ibexa-data-source--richtext [data-ezelement=ezembed],
+.ibexa-data-source--richtext [data-ezelement=ezembedinline] {
+  background: #fbfbfc;
+  border: 0.0625rem solid #fbfbfc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0 0.3125rem;
+  padding: 0.125rem;
+  box-sizing: border-box;
+  line-height: 1;
+  min-height: auto;
+  font-weight: normal;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembed] .ibexa-embed-content,
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembedinline] .ibexa-embed-content,
+.ibexa-data-source--richtext [data-ezelement=ezembed] .ibexa-embed-content,
+.ibexa-data-source--richtext [data-ezelement=ezembedinline] .ibexa-embed-content {
+  margin-bottom: 0;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembed] .ibexa-embed-content__title,
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembedinline] .ibexa-embed-content__title,
+.ibexa-data-source--richtext [data-ezelement=ezembed] .ibexa-embed-content__title,
+.ibexa-data-source--richtext [data-ezelement=ezembedinline] .ibexa-embed-content__title {
+  vertical-align: middle;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembed] .ibexa-embed-content .ibexa-icon,
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembedinline] .ibexa-embed-content .ibexa-icon,
+.ibexa-data-source--richtext [data-ezelement=ezembed] .ibexa-embed-content .ibexa-icon,
+.ibexa-data-source--richtext [data-ezelement=ezembedinline] .ibexa-embed-content .ibexa-icon {
+  vertical-align: middle;
+  background: #fbfbfc;
+  border-radius: 0.25rem;
+  padding: 0.125rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembed],
+.ibexa-data-source--richtext [data-ezelement=ezembed] {
+  display: flex;
+  width: fit-content;
+  margin: 0.5rem 0;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezelement=ezembedinline],
+.ibexa-data-source--richtext [data-ezelement=ezembedinline] {
+  vertical-align: middle;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-eztype=style][data-ezelement=eztemplate],
+.ibexa-data-source--richtext [data-eztype=style][data-ezelement=eztemplate] {
+  padding: 0.5rem;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: #f3f3f6;
+  border-radius: 0.3125rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-eztype=style][data-ezelement=eztemplateinline],
+.ibexa-data-source--richtext [data-eztype=style][data-ezelement=eztemplateinline] {
+  background-color: #f3f3f6;
+  border-radius: 0.3125rem;
+  padding: 0 0.25rem;
+  margin: 0 0.25rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source .ibexa-embed-type-image,
+.ibexa-data-source--richtext .ibexa-embed-type-image {
+  padding: 0.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezalign=right],
+.ibexa-data-source--richtext [data-ezalign=right] {
+  float: right;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezalign=left],
+.ibexa-data-source--richtext [data-ezalign=left] {
+  float: left;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [data-ezalign=center],
+.ibexa-data-source--richtext [data-ezalign=center] {
+  margin: 1rem auto;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source p,
+.ibexa-data-source--richtext p {
+  min-height: 1.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h1,
+.ibexa-data-source--richtext h1 {
+  min-height: 2.0625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h2,
+.ibexa-data-source--richtext h2 {
+  min-height: 1.75rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h3,
+.ibexa-data-source--richtext h3 {
+  min-height: 1.625rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h4,
+.ibexa-data-source--richtext h4 {
+  min-height: 1.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h5,
+.ibexa-data-source--richtext h5 {
+  min-height: 1.3125rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source h6,
+.ibexa-data-source--richtext h6 {
+  min-height: 1.25rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source pre,
+.ibexa-data-source--richtext pre {
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.625rem;
+  padding: 0.25rem 0.5rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [id]:not(.ibexa-data-source__richtext),
+.ibexa-data-source--richtext [id]:not(.ibexa-data-source__richtext) {
+  position: relative;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source [id]:not(.ibexa-data-source__richtext):before,
+.ibexa-data-source--richtext [id]:not(.ibexa-data-source__richtext):before {
+  content: "";
+  background-image: url(/bundles/ibexaadminui/img/icons/link-anchor.svg);
+  position: absolute;
+  left: -1.25rem;
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source pre[id]:not(.ibexa-data-source__richtext),
+.ibexa-data-source--richtext pre[id]:not(.ibexa-data-source__richtext) {
+  padding-left: 1.25rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source pre[id]:not(.ibexa-data-source__richtext):before,
+.ibexa-data-source--richtext pre[id]:not(.ibexa-data-source__richtext):before {
+  left: 0.125rem;
+  top: 0.125rem;
+}
+.ibexa-field-edit--ezrichtext .ibexa-data-source li[id]:not(.ibexa-data-source__richtext)::before,
+.ibexa-data-source--richtext li[id]:not(.ibexa-data-source__richtext)::before {
+  left: -2.5rem;
+}
+
+.ibexa-field-edit--ezrichtext.ibexa-field-edit--nontranslatable .ibexa-data-source .ibexa-data-source__richtext {
+  color: #a0a4a8;
+  background-color: #f3f3f6;
+  pointer-events: none;
+}
+.ibexa-field-edit--ezrichtext.ibexa-field-edit--nontranslatable .ibexa-data-source .ibexa-richtext-tools {
+  color: #71767c;
+  background-color: #ececf1;
+  pointer-events: none;
+}
+
+.ibexa-field-edit--ezrichtext .ibexa-data-source__richtext.ck.ck-editor__editable.ck-rounded-corners:not(.ck-editor__nested-editable) {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.ibexa-field-edit--ezrichtext.is-invalid .ibexa-label {
+  color: #db0032;
+}
+.ibexa-field-edit--ezrichtext.is-invalid .ibexa-data-source {
+  border-color: #db0032;
+}
+.ibexa-field-edit--ezrichtext.is-invalid .ibexa-data-source__richtext {
+  background-color: #fbe5ea;
+}
+
+.ibexa-field-edit--distraction-free-mode-active .ibexa-data-source__richtext {
+  height: calc(100% - 2.5rem);
+}
+
+.ck.ck-editor__editable_inline {
+  border: none;
+}
+.ck.ck-toolbar-container.ck-balloon-panel {
+  z-index: var(--ck-z-modal)-1;
+}
+.ck.ck-toolbar-container .ck.ck-toolbar {
+  border: none;
+  background: #ffffff;
+  border-radius: 0.625rem;
+}
+.ck.ck-rounded-corners .ck.ck-balloon-panel, .ck.ck-balloon-panel.ck-rounded-corners {
+  border-radius: 0.625rem;
+}
+.ck.ck-dropdown__panel {
+  max-height: 18.75rem;
+  overflow-y: auto;
+}
+.ck-body-wrapper .ck.ck-balloon-panel {
+  z-index: calc(var(--ck-z-modal) + 100);
+}
+
+.ibexa-custom-tag {
+  position: relative;
+  padding: 2rem 0.625rem 0.625rem;
+  border: 0.0625rem solid #cfd1d3;
+  width: 100%;
+}
+.ibexa-custom-tag__header {
+  background-color: #fbfbfc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 0.625rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  min-height: 2rem;
+}
+.ibexa-custom-tag__header-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+}
+.ibexa-custom-tag[data-ezelement=eztemplateinline] {
+  padding: 0.25rem 0.5rem;
+}
+
+.ck.ck-reset_all .ibexa-custom-tag-attributes {
+  min-width: 25rem;
+  max-width: calc(100vw - 9.375rem);
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfc;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  padding: 0.125rem 1rem;
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__header-title {
+  font-weight: bold;
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__items {
+  overflow: auto;
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__item {
+  padding: 0.5rem 1rem;
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__item-label {
+  color: #71767c;
+  font-size: 0.75rem;
+}
+.ck.ck-reset_all .ibexa-custom-tag-attributes__item-value {
+  font-size: 1rem;
+  white-space: normal;
+}
+
+.ibexa-custom-panel {
+  min-width: 20rem;
+}
+.ibexa-custom-panel__content--overflow-with-scroll {
+  overflow: auto;
+}
+.ibexa-custom-panel__content--overflow-with-scroll.ibexa-ckeditor-balloon-form__fields .ck.ck-labeled-field-view .ck.ck-input {
+  width: 100%;
+}
+.ibexa-custom-panel__content--overflow-with-scroll.ibexa-ckeditor-balloon-form__fields .ck.ck-labeled-field-view .ck.ck-dropdown {
+  width: 100%;
+}
+.ibexa-custom-panel__content--overflow-with-scroll.ibexa-ckeditor-balloon-form__fields .ck.ck-labeled-field-view .ck.ck-dropdown .ck.ck-button {
+  display: block;
+}
+.ibexa-custom-panel__content--overflow-with-scroll.ibexa-ckeditor-balloon-form__fields .ck.ck-labeled-field-view .ck.ck-dropdown .ck.ck-button .ck.ck-button__label {
+  width: calc(100% - 1.25rem);
+  height: fit-content;
+  white-space: normal;
+  overflow: hidden;
+}
+.ibexa-custom-panel__content--overflow-with-scroll.ibexa-ckeditor-balloon-form__fields .ck.ck-labeled-field-view .ck-dropdown__panel-visible {
+  position: static;
+  bottom: 0;
+  height: fit-content;
+  max-height: 100%;
+  border: none;
+  box-shadow: none;
+}
+
+.ibexa-elements-path {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.ibexa-elements-path__item {
+  cursor: pointer;
+}
+.ibexa-elements-path__item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.ibexa-richtext-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.625rem;
+  background-color: #fbfbfc;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+
+.ibexa-character-counter {
+  position: relative;
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+  text-align: right;
+  white-space: nowrap;
+}
+.ibexa-character-counter__word-count, .ibexa-character-counter__character-count {
+  margin-left: 1rem;
+}
+
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form {
+  position: relative;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__header {
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  padding: 0.125rem 1rem;
+  font-weight: bold;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields {
+  padding: 0.5rem 1rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields--attributes {
+  border-bottom: 0.0625rem solid #e0e0e8;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view {
+  margin-bottom: 0.75rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck-input-text {
+  border-radius: 0.3125rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-dropdown {
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.3125rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-dropdown .ck-button.ck-dropdown__button .ck-button__label {
+  width: 12.375rem;
+  display: inline-block;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-button.ck-switchbutton {
+  background: transparent;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-button.ck-switchbutton.ck-on .ck-button__toggle__inner {
+  transform: translate(1.25rem, 0.125rem);
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-button.ck-switchbutton .ck-button__toggle {
+  border-radius: 0.625rem;
+  height: 1rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__fields .ck-labeled-field-view .ck.ck-button.ck-switchbutton .ck-button__toggle__inner {
+  border-radius: 50%;
+  width: 0.625rem;
+  height: 0.625rem;
+  transform: translate(0.125rem, 0.125rem);
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__separator {
+  margin-bottom: 0.75rem;
+  color: #71767c;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button {
+  cursor: pointer;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-save {
+  color: #ffffff;
+  fill: #ffffff;
+  background-image: linear-gradient(to right, #db0032 0%, #ae1164 100%);
+  border-width: 0;
+  padding: 0rem 1rem;
+  border-radius: 0.625rem;
+  margin-right: 0.5rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-save:hover {
+  color: #ffffff;
+  box-shadow: 0 0 0 transparent, 0 calculateRem(22px) calculateRem(24px) 0 rgba(219, 0, 50, 0.2);
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-save:hover:focus {
+  box-shadow: 0 0 0 calculateRem(3px) rgba(174, 17, 100, 0.2), 0 calculateRem(22px) calculateRem(24px) 0 rgba(219, 0, 50, 0.2);
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-save:disabled {
+  color: #71767c;
+  fill: #71767c;
+  background-image: none;
+  background-color: #e0e0e8;
+  box-shadow: none;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert {
+  margin-right: 0.5rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-cancel, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content {
+  color: #ae1164;
+  fill: #ae1164;
+  background-color: #ffffff;
+  border-color: #ae1164;
+  padding: 0rem 1rem;
+  border-radius: 0.625rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-cancel:hover, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-cancel:focus, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert:hover, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert:focus, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content:hover, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content:focus {
+  color: #ae1164;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-cancel:hover, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert:hover, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content:hover {
+  background-color: #eecfe0;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-cancel:disabled, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ck-button-revert:disabled, .ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content:disabled {
+  color: #71767c;
+  fill: #71767c;
+  border-color: #cfd1d3;
+  background-color: #f3f3f6;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form .ck.ck-button.ibexa-btn--select-content {
+  margin-bottom: 0.75rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-balloon-form__actions {
+  padding: 0.5rem 1rem;
+}
+.ck.ck-reset_all .ck-toolbar-container {
+  z-index: calc(var(--ck-z-modal) - 1);
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel_with-arrow {
+  z-index: calc(var(--ck-z-modal) + 1);
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel {
+  box-shadow: 0rem 0.125rem 0.5rem 0 rgba(224, 224, 232, 0.15);
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel .ck.ck-toolbar {
+  padding: 0.25rem;
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel .ck-toolbar__items .ck-button {
+  padding: 0.5rem;
+  margin: 0;
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel .ck-toolbar__items .ck-button.ck-insert-table-dropdown-grid-box {
+  padding: 0;
+  margin: var(--ck-insert-table-dropdown-box-margin);
+}
+.ck.ck-reset_all .ck-toolbar-container.ck-balloon-panel .ck-toolbar__items .ck-dropdown {
+  padding: 0;
+  margin: 0;
+}
+.ck.ck-reset_all.ck-body--distraction-free-mode-active .ck-balloon-panel_visible {
+  z-index: 1080;
+}
+.ck.ck-reset_all.ck-body--distraction-free-mode-active .ck-balloon-panel_with-arrow {
+  z-index: 1081;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/connector-qualifio/src/bundle/Resources/public/scss/qualifio-ckeditor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-ckeditor-measurement__inputs {
+  display: flex;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view {
+  height: 2rem;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view:first-child {
+  margin-right: 0.5rem;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view__input-wrapper {
+  height: 2rem;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view__input-wrapper .ck-input {
+  min-width: 10rem;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-button.ck-dropdown__button .ck.ck-button__label {
+  width: 2.5rem;
+}
+.ibexa-ckeditor-measurement .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item {
+  min-width: 4.5rem;
+}
+
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck-list__group .ck.ck-label {
+  position: relative;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown {
+  width: 100%;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-button.ck-dropdown__button .ck-button__label {
+  width: 12.875rem;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-button.ck-dropdown__button.ck-button_with-text .ck-button__label {
+  width: 13rem;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item .ck-button .ck-button__label {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3125rem;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item .ck-button .ck-button__label .ibexa-ckeditor-campaign__item-date-wrapper {
+  display: flex;
+  align-items: center;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item .ck-button .ck-button__label .ibexa-ckeditor-campaign__item-date-wrapper .ck-icon {
+  fill: #71767c;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item .ck-button .ck-button__label .ibexa-ckeditor-campaign__item-date-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ibexa-ckeditor-campaign .ck.ck-labeled-field-view .ck.ck-labeled-field-view__input-wrapper .ck.ck-dropdown .ck-list__item .ck-button .ck-button__label .ibexa-ckeditor-campaign__item-date {
+  color: #71767c;
+}
+
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input {
+  padding: 0.5rem;
+  position: relative;
+}
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input .ck.ck-input {
+  width: 100%;
+}
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input .ck.ck-input:placeholder-shown + .ibexa-ckeditor-campaign-filter-input__clear-btn {
+  display: none;
+}
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input__icon-wrapper .ck.ck-icon {
+  position: absolute;
+  right: 1rem;
+  top: 0.875rem;
+  width: 1rem;
+  height: 1rem;
+  fill: #71767c;
+}
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input__clear-btn {
+  position: absolute;
+  right: 2.5rem;
+  top: 0.625rem;
+  cursor: pointer;
+}
+.ck-reset.ck .ibexa-ckeditor-campaign-filter-input__clear-btn .ck.ck-icon {
+  width: 0.625rem;
+  height: 0.625rem;
+  fill: #71767c;
+}
+
+.ck.ck-reset_all .ibexa-ckeditor-alert {
+  min-height: 3rem;
+  display: grid;
+  grid-template: "icon content close-btn";
+  grid-template-columns: auto 1fr auto;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0 0.625rem 0.625rem 0;
+  border-width: 0 0 0 0.25rem;
+  border-left-style: solid;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--hidden {
+  display: none;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__icon-wrapper {
+  grid-area: icon;
+  display: flex;
+  align-self: start;
+  margin-top: 0.5rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__icon-wrapper .ck-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__content {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 0.25rem 0.5rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__title {
+  max-width: 10rem;
+  text-wrap: wrap;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__close-btn {
+  grid-area: close-btn;
+  fill: inherit;
+  padding: 0.25rem;
+  border-radius: 50%;
+  margin-left: 0.3125rem;
+  align-self: start;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert__close-btn .ck-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info {
+  color: #2b7283;
+  background-color: #ecf8fb;
+  border-color: #b5e5f0 #b5e5f0 #b5e5f0 #47bedb;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ck-icon {
+  fill: #2b7283;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__title {
+  color: #2b7283;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn {
+  background-color: transparent;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:hover {
+  background-color: transparent;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:hover .ck-icon {
+  fill: #1c4c58;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:active, .ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:focus-visible {
+  background-color: transparent;
+  border: 0.0625rem solid #2b7283;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:active .ck-icon, .ck.ck-reset_all .ibexa-ckeditor-alert--info .ibexa-ckeditor-alert__close-btn:focus-visible .ck-icon {
+  fill: #2b7283;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning {
+  color: #976828;
+  background-color: #fff7ec;
+  border-color: #fddeb3 #fddeb3 #fddeb3 #fcae42;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ck-icon {
+  fill: #976828;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__title {
+  color: #976828;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn {
+  background-color: transparent;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:hover {
+  background-color: transparent;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:hover .ck-icon {
+  fill: #65461a;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:active, .ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:focus-visible {
+  background-color: transparent;
+  border: 0.0625rem solid #976828;
+}
+.ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:active .ck-icon, .ck.ck-reset_all .ibexa-ckeditor-alert--warning .ibexa-ckeditor-alert__close-btn:focus-visible .ck-icon {
+  fill: #976828;
+}

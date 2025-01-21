@@ -1,0 +1,9 @@
+PersonalizedPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            number:
+                type: Int
+                resolve: '@=value.getAttribute("number").getValue()'

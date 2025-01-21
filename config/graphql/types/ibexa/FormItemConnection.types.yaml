@@ -1,0 +1,9 @@
+FormItemConnection:
+    type: relay-connection
+    config:
+        nodeType: FormItem
+        connectionFields:
+            sliceSize:
+                type: Int!
+            orderBy:
+                type: String

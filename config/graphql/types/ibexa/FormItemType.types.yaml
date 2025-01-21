@@ -1,0 +1,14 @@
+FormItemType:
+    type: object
+    inherits:
+        - BaseItemType
+    config:
+        interfaces:
+            - ItemType
+        fields:
+            title:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("title")'
+            form:
+                type: MatrixFieldDefinition
+                resolve: '@=value.getFieldDefinition("form")'

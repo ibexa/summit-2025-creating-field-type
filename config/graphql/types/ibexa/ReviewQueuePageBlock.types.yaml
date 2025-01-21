@@ -1,0 +1,4 @@
+ReviewQueuePageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

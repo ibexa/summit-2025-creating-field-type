@@ -1,0 +1,17 @@
+CustomerPortalPageItemType:
+    type: object
+    inherits:
+        - BaseItemType
+    config:
+        interfaces:
+            - ItemType
+        fields:
+            name:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("name")'
+            description:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("description")'
+            page:
+                type: MatrixFieldDefinition
+                resolve: '@=value.getFieldDefinition("page")'

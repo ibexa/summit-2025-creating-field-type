@@ -1,0 +1,9 @@
+EditorItemConnection:
+    type: relay-connection
+    config:
+        nodeType: EditorItem
+        connectionFields:
+            sliceSize:
+                type: Int!
+            orderBy:
+                type: String

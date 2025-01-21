@@ -1,0 +1,15 @@
+ContentlistPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            contentId:
+                type: Item
+                resolve: '@=resolver("EmbedAttributeValue", [value.getAttribute("contentId").getValue()])'
+            limit:
+                type: Int
+                resolve: '@=value.getAttribute("limit").getValue()'
+            contentType:
+                type: '[ContentType]'
+                resolve: '@=resolver("ContentTypeListStorageValue", [value.getAttribute("contentType").getValue()])'

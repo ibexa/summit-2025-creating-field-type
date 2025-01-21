@@ -1,0 +1,24 @@
+EditorItemCreateInput:
+    type: input-object
+    config:
+        fields:
+            firstName:
+                type: String!
+            lastName:
+                type: String!
+            userAccount:
+                type: String!
+            image:
+                type: ImageFieldInput
+            signature:
+                type: String
+            position:
+                type: String
+            department:
+                type: String
+            location:
+                type: String
+            phone:
+                type: String
+            linkedIn:
+                type: String

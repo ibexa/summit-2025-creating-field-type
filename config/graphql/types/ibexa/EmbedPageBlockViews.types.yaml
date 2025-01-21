@@ -1,0 +1,7 @@
+EmbedPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/embed.html.twig'
+                description: 'Default block layout'

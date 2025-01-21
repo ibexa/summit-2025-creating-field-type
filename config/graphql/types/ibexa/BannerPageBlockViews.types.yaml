@@ -1,0 +1,7 @@
+BannerPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/banner.html.twig'
+                description: 'Default block layout'

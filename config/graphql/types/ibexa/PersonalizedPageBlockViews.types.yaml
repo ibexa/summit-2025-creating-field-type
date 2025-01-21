@@ -1,0 +1,7 @@
+PersonalizedPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaPersonalization/blocks/personalized.html.twig'
+                description: 'Default block layout'

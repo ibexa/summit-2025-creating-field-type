@@ -1,0 +1,7 @@
+LastViewedPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/personalization/page_builder/blocks/last_viewed.html.twig'
+                description: 'Default block layout'

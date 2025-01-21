@@ -1,0 +1,4 @@
+MyContentPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

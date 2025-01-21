@@ -1,0 +1,22 @@
+ItemGroupContentTypes:
+    type: object
+    config:
+        fields:
+            article:
+                type: ArticleItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "article"}])'
+            folder:
+                type: FolderItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "folder"}])'
+            form:
+                type: FormItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "form"}])'
+            tag:
+                type: TagItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "tag"}])'
+            landingPage:
+                type: LandingPageItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "landing_page"}])'
+            productCategoryTag:
+                type: ProductCategoryTagItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "product_category_tag"}])'

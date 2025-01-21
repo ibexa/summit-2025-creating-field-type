@@ -1,0 +1,4 @@
+TopClickedItemsPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

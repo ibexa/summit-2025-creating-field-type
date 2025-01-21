@@ -1,0 +1,7 @@
+CollectionPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/collection.html.twig'
+                description: 'Default block layout'

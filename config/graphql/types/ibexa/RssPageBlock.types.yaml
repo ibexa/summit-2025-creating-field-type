@@ -1,0 +1,15 @@
+RssPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            url:
+                type: String
+                resolve: '@=value.getAttribute("url").getValue()'
+            limit:
+                type: Int
+                resolve: '@=value.getAttribute("limit").getValue()'
+            offset:
+                type: Int
+                resolve: '@=value.getAttribute("offset").getValue()'

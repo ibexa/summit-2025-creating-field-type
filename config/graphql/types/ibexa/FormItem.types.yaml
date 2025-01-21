@@ -1,0 +1,19 @@
+FormItem:
+    type: object
+    inherits:
+        - AbstractItem
+    config:
+        interfaces:
+            - Item
+            - Node
+        fields:
+            title:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "title", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            form:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "form", args])'
+                args:
+                    language: { type: RepositoryLanguage }

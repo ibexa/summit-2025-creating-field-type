@@ -1,0 +1,9 @@
+CustomerPortalPageItemConnection:
+    type: relay-connection
+    config:
+        nodeType: CustomerPortalPageItem
+        connectionFields:
+            sliceSize:
+                type: Int!
+            orderBy:
+                type: String

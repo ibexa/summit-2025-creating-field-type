@@ -1,0 +1,7 @@
+BestsellersPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/personalization/page_builder/blocks/bestsellers.html.twig'
+                description: 'Default block layout'

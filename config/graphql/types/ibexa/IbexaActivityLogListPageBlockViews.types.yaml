@@ -1,0 +1,7 @@
+IbexaActivityLogListPageBlockViews:
+    type: enum
+    config:
+        values:
+            activity_log_list:
+                value: '@ibexadesign/dashboard/blocks/activity_log.html.twig'
+                description: 'Ibexa Data Grid'

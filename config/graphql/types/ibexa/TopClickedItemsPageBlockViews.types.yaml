@@ -1,0 +1,7 @@
+TopClickedItemsPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/personalization/dashboard/blocks/top_clicked_items.html.twig'
+                description: 'Default view'

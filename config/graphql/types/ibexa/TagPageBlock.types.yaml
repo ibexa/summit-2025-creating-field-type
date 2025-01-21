@@ -1,0 +1,9 @@
+TagPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            content:
+                type: String
+                resolve: '@=value.getAttribute("content").getValue()'

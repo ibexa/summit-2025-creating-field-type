@@ -1,0 +1,7 @@
+QualifioPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/blocks/qualifio/default.html.twig'
+                description: Default

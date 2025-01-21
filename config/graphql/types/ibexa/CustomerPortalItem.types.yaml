@@ -1,0 +1,12 @@
+CustomerPortalItem:
+    type: object
+    inherits:
+        - AbstractItem
+    config:
+        interfaces:
+            - Item
+            - Node
+        fields:
+            name:
+                type: String
+                resolve: '@=resolver("ItemFieldValue", [value, "name", args])'

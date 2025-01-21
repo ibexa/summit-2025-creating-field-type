@@ -1,0 +1,7 @@
+RssPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/rss.html.twig'
+                description: 'Default block layout'

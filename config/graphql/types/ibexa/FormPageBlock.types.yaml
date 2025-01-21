@@ -1,0 +1,4 @@
+FormPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock

@@ -1,0 +1,7 @@
+ProductCollectionPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/product_catalog/page_builder/blocks/product_collection.html.twig'
+                description: 'Default block layout'

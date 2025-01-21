@@ -1,0 +1,38 @@
+EditorItemType:
+    type: object
+    inherits:
+        - BaseItemType
+    config:
+        interfaces:
+            - ItemType
+        fields:
+            firstName:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("first_name")'
+            lastName:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("last_name")'
+            userAccount:
+                type: MatrixFieldDefinition
+                resolve: '@=value.getFieldDefinition("user_account")'
+            image:
+                type: BinaryFieldDefinition
+                resolve: '@=value.getFieldDefinition("image")'
+            signature:
+                type: TextBlockFieldDefinition
+                resolve: '@=value.getFieldDefinition("signature")'
+            position:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("position")'
+            department:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("department")'
+            location:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("location")'
+            phone:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("phone")'
+            linkedIn:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("linked_in")'

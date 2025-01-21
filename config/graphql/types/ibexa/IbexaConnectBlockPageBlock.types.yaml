@@ -1,0 +1,9 @@
+IbexaConnectBlockPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            url:
+                type: String
+                resolve: '@=value.getAttribute("url").getValue()'

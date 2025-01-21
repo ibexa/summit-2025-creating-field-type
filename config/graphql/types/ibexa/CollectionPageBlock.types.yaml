@@ -1,0 +1,9 @@
+CollectionPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            locationlist:
+                type: '[Location]'
+                resolve: '@=resolver("LocationListStorageValue", [value.getAttribute("locationlist").getValue()])'

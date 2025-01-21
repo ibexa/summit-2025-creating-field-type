@@ -1,0 +1,9 @@
+RichtextPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            content:
+                type: RichTextBlockAttributeValue
+                resolve: '@=value.getAttribute("content").getValue()'

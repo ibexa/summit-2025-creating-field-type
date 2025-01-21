@@ -1,0 +1,9 @@
+QuickActionsPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            actions:
+                type: String
+                resolve: '@=value.getAttribute("actions").getValue()'

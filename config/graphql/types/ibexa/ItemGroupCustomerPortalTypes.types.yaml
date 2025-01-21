@@ -1,0 +1,10 @@
+ItemGroupCustomerPortalTypes:
+    type: object
+    config:
+        fields:
+            customerPortal:
+                type: CustomerPortalItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "customer_portal"}])'
+            customerPortalPage:
+                type: CustomerPortalPageItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "customer_portal_page"}])'

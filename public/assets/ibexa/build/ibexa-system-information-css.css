@@ -1,0 +1,17 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/system-info/src/bundle/Resources/public/scss/system-information.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-system-info-helper-text {
+  font-size: 0.75rem;
+  color: #71767c;
+  width: 75%;
+  border-top: 0.0625rem solid #cfd1d3;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.ibexa-system-info-helper-text__link {
+  color: #71767c;
+}
+.ibexa-system-info-helper-text .ibexa-icon {
+  fill: #71767c;
+}

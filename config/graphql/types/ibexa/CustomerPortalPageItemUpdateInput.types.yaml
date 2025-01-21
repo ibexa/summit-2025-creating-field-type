@@ -1,0 +1,10 @@
+CustomerPortalPageItemUpdateInput:
+    type: input-object
+    config:
+        fields:
+            name:
+                type: String
+            description:
+                type: String
+            page:
+                type: String

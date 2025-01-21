@@ -1,0 +1,7 @@
+ProductsWithLowestStockPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/product_catalog/dashboard/blocks/products_with_lowest_stock.html.twig'
+                description: 'Default block layout'

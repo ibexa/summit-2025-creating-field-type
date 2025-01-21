@@ -1,0 +1,7 @@
+TagPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/tag.html.twig'
+                description: 'Default block layout'

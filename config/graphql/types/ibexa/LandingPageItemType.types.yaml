@@ -1,0 +1,20 @@
+LandingPageItemType:
+    type: object
+    inherits:
+        - BaseItemType
+    config:
+        interfaces:
+            - ItemType
+        fields:
+            name:
+                type: TextLineFieldDefinition
+                description: Title
+                resolve: '@=value.getFieldDefinition("name")'
+            description:
+                type: TextLineFieldDefinition
+                description: 'Landing page description'
+                resolve: '@=value.getFieldDefinition("description")'
+            page:
+                type: MatrixFieldDefinition
+                description: 'Landing page'
+                resolve: '@=value.getFieldDefinition("page")'

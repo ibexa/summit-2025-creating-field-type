@@ -1,0 +1,13 @@
+ItemGroupUsersTypes:
+    type: object
+    config:
+        fields:
+            editor:
+                type: EditorItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "editor"}])'
+            user:
+                type: UserItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "user"}])'
+            userGroup:
+                type: UserGroupItemType
+                resolve: '@=resolver("ContentType", [{"identifier": "user_group"}])'

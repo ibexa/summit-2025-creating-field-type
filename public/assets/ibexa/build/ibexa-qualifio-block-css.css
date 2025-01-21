@@ -1,0 +1,45 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/connector-qualifio/src/bundle/Resources/public/scss/qualifio-block.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3125rem;
+}
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-campaign-wrapper,
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-date-wrapper {
+  display: flex;
+  align-items: center;
+}
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-campaign-wrapper .ibexa-icon,
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-date-wrapper .ibexa-icon {
+  fill: #71767c;
+}
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-date,
+.ibexa-dropdown__items--qualifio .ibexa-dropdown__item-label-wrapper .ibexa-dropdown__item-campaign {
+  color: #71767c;
+}
+
+.ibexa-qualifio-html-element-size {
+  display: flex;
+  clear: both;
+}
+.ibexa-qualifio-html-element-size .form-group:first-child {
+  margin-right: 1rem;
+}
+.ibexa-qualifio-html-element-size .ibexa-input-text-wrapper--type-text {
+  width: 8.75rem;
+}
+.ibexa-qualifio-html-element-size .ibexa-dropdown__wrapper {
+  width: 5.75rem;
+}
+.ibexa-qualifio-html-element-size .ibexa-form-error__row {
+  width: 9.375rem;
+}
+.ibexa-qualifio-html-element-size .ibexa-form-error__icon {
+  flex-shrink: 0;
+}
+
+.ibexa-alert--block-size {
+  margin-top: 1rem;
+}

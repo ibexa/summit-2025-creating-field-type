@@ -1,0 +1,12 @@
+ProductsWithLowestStockPageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            limit:
+                type: Int
+                resolve: '@=value.getAttribute("limit").getValue()'
+            stock:
+                type: Int
+                resolve: '@=value.getAttribute("stock").getValue()'

@@ -1,0 +1,609 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/site-factory/src/bundle/Resources/public/scss/ibexa.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --ibexa-hover-color: var(--ibexa-hover-color, $ibexa-color-primary);
+  --ibexa-border-color: var(--ibexa-border-color, $ibexa-color-dark);
+}
+
+@keyframes remove-field {
+  100% {
+    height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes item-remove-pulse {
+  0% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  10% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+  20% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0.625rem #f3f3f6;
+  }
+  100% {
+    border-color: #f3f3f6;
+    box-shadow: 0 0 0 0 #f3f3f6;
+  }
+}
+@keyframes item-highlight-pulse {
+  0% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  10% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0 #ecf4ff;
+  }
+  20% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0 0 0 0.625rem #ecf4ff;
+  }
+  100% {
+    border-color: #b3d3ff;
+    background-color: #ecf4ff;
+    box-shadow: 0.25rem 0.125rem 1.0625rem 0 rgba(65, 145, 255, 0.05);
+  }
+}
+@keyframes spinner-animation {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.ibexa-sf-status {
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.5rem;
+}
+.ibexa-sf-status--offline {
+  background-color: #a0a4a8;
+}
+.ibexa-sf-status--online {
+  background-color: #00a42b;
+}
+.ibexa-sf-status--build {
+  background-color: #ff4713;
+}
+.ibexa-sf-status--one-line {
+  float: left;
+  margin-right: 0.75rem;
+}
+
+.ibexa-sf-list__site-search {
+  margin-bottom: 2.625rem;
+}
+.ibexa-sf-list__alert-wrapper {
+  margin-bottom: 2rem;
+}
+
+.ibexa-sf-view .ibexa-table {
+  margin-bottom: 4.5rem;
+}
+.ibexa-sf-view__site-thumbnail {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.ibexa-site-factory-header {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.ibexa-site-factory-header__col {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.ibexa-site-factory-header__col--create {
+  justify-content: flex-end;
+}
+.ibexa-site-factory-header__col--create .btn {
+  display: flex;
+  align-items: center;
+  color: #ae1164;
+  text-decoration: none;
+}
+.ibexa-site-factory-header__col--create .ibexa-icon {
+  margin-right: 0.1875rem;
+}
+
+.ibexa-sf-list-actions {
+  display: flex;
+}
+.ibexa-sf-list-actions__view-action {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  border-left: 0.125rem solid #e0e0e8;
+}
+.ibexa-sf-list-actions__view-action .ibexa-view-switcher {
+  min-width: 7.5rem;
+}
+.ibexa-sf-list-actions__view-action .ibexa-view-switcher .ibexa-dropdown__selection-info:hover .ibexa-dropdown__selected-item {
+  color: #ae1164;
+}
+.ibexa-sf-list-actions__view-action .ibexa-view-switcher .ibexa-dropdown__selection-info:hover .ibexa-icon {
+  fill: #ae1164;
+}
+.ibexa-sf-list-actions__label {
+  margin-right: 0.4375rem;
+  padding-top: 0.125rem;
+  font-size: 0.75rem;
+}
+
+.ibexa-site-factory-list-table__image {
+  max-width: 10rem;
+  max-height: 5.9375rem;
+}
+.ibexa-site-factory-list-table__image--default {
+  background-color: #f9f9fa;
+  min-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ibexa-site-factory-list-table__name {
+  display: block;
+  padding-bottom: 0.3125rem;
+}
+.ibexa-site-factory-list-table .ibexa-table__cell {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  vertical-align: top;
+}
+.ibexa-site-factory-list-table tbody > tr:not(:last-child) .ibexa-table__cell {
+  border-bottom: 0.0625rem solid #e0e0e8;
+}
+
+.ibexa-site-factory-form__group--public-access .ibexa-fieldgroup__content {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.ibexa-site-factory-form__group--public-access .ibexa-fieldgroup__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ibexa-site-factory-form__group--public-access .form-inline {
+  display: inline-flex;
+}
+.ibexa-site-factory-form .ibexa-card__body-display-toggler .ibexa-icon {
+  transition: transform 0.2s ease-in-out;
+}
+.ibexa-site-factory-form .ibexa-card--collapsed .ibexa-card__body-display-toggler .ibexa-icon {
+  transform: rotate(-90deg);
+}
+
+.ibexa-sf-design-layouts {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.5rem;
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.625rem;
+}
+.ibexa-sf-design-layouts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12.5rem;
+  height: 15rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.625rem;
+}
+.ibexa-sf-design-layouts__item--selected {
+  border-color: #131c26;
+}
+.ibexa-sf-design-layouts__item-image {
+  width: 10.9375rem;
+  height: 10.9375rem;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+.ibexa-sf-design-layouts__item-desc {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
+
+.ibexa-sf-parent-location .ibexa-label {
+  display: block;
+}
+
+.ibexa-sf-form-status {
+  margin-bottom: 1.5rem;
+}
+.ibexa-sf-form-status .ibexa-label {
+  font-weight: 500;
+  padding-right: 0.3125rem;
+  margin-bottom: 0;
+}
+.ibexa-sf-form-status .ibexa-label:after {
+  content: ": ";
+}
+.ibexa-sf-form-status__widget {
+  min-width: 3rem;
+  margin-right: 1.25rem;
+}
+
+.ibexa-sf-form-site-skeleton {
+  margin-top: 0.25rem;
+}
+.ibexa-sf-form-site-skeleton .ibexa-label {
+  padding-bottom: 0.5rem;
+}
+.ibexa-sf-form-site-skeleton--is-hidden {
+  display: none;
+}
+.ibexa-sf-form-site-skeleton__widget {
+  min-width: 3rem;
+  margin-right: 1.25rem;
+}
+
+.ibexa-sf-form-languages {
+  padding: 1.5rem;
+  border: 0.0625rem solid #cfd1d3;
+  border-radius: 0.625rem;
+}
+.ibexa-sf-form-languages__delete-language-btn {
+  align-items: center;
+}
+.ibexa-sf-form-languages__info {
+  font-size: 0.875rem;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ibexa-sf-form-languages__items {
+  list-style: none;
+  max-width: 25rem;
+  margin-top: 1rem;
+  min-height: 2.25rem;
+  padding: 0;
+}
+.ibexa-sf-form-languages__items--hidden {
+  display: none;
+}
+.ibexa-sf-form-languages__items--placeholder {
+  display: block;
+  height: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  pointer-events: none;
+}
+
+.ibexa-sf-form-languages-item {
+  display: flex;
+  background: #f3f3f6;
+  margin-top: 0.5rem;
+  border-radius: 0.625rem;
+}
+.ibexa-sf-form-languages-item:hover:not(.ibexa-sf-form-languages-item--is-non-interactive) .ibexa-sf-form-languages-item__content {
+  border-color: #131c26;
+  transform: scale(1.02) translateX(-10px);
+  box-shadow: 0.25rem 1.375rem 2.9375rem 0 rgba(65, 145, 255, 0.2);
+}
+.ibexa-sf-form-languages-item--is-dragging-out .ibexa-sf-form-languages-item__content {
+  opacity: 0;
+}
+.ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content {
+  border-color: #b3d3ff;
+  background-color: #ecf4ff;
+  animation: item-highlight-pulse 1s 1;
+}
+.ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content * {
+  color: #619eff;
+}
+.ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content .ibexa-dropdown__selection-info::before, .ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content .ibexa-dropdown__selection-info::after {
+  background: #619eff;
+}
+.ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content .ibexa-dropdown .ibexa-dropdown__selected-item {
+  color: #619eff;
+}
+.ibexa-sf-form-languages-item--highlighted .ibexa-sf-form-languages-item__content .ibexa-icon {
+  fill: #619eff;
+}
+.ibexa-sf-form-languages-item--is-removing .ibexa-sf-form-languages-item__content {
+  border-color: #f3f3f6;
+  animation: item-remove-pulse 0.2s 1;
+  transform-origin: center;
+  pointer-events: none;
+}
+.ibexa-sf-form-languages-item--is-removing .ibexa-sf-form-languages-item__content:hover {
+  border-color: #f3f3f6;
+}
+.ibexa-sf-form-languages-item--removed {
+  animation: remove-field 1s 1 forwards;
+}
+.ibexa-sf-form-languages-item--error .ibexa-sf-form-languages-item__content {
+  border-color: #db0032;
+}
+.ibexa-sf-form-languages-item__content {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 0.0625rem solid #e0e0e8;
+  border-radius: 0.625rem;
+  box-shadow: 0.25rem 0.125rem 1.0625rem 0 rgba(65, 145, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.ibexa-sf-form-languages-item__content[draggable=true] {
+  cursor: grab;
+}
+.ibexa-sf-form-languages-item__left-col {
+  display: flex;
+  width: calc(100% - 4rem);
+}
+.ibexa-sf-form-languages-item__right-col {
+  display: flex;
+  justify-content: flex-end;
+  width: 4rem;
+}
+.ibexa-sf-form-languages-item__drag-handler {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding-right: 1rem;
+}
+.ibexa-sf-form-languages-item__drag-handler .ibexa-icon {
+  fill: #cfd1d3;
+}
+.ibexa-sf-form-languages-item__label {
+  padding-top: 0.25rem;
+}
+.ibexa-sf-form-languages-item--invalid .ibexa-sf-form-languages-item__content {
+  border-color: #db0032;
+  color: #db0032;
+}
+.ibexa-sf-form-languages-item--invalid .ibexa-sf-form-languages-item__content .ibexa-dropdown__selection-info::before, .ibexa-sf-form-languages-item--invalid .ibexa-sf-form-languages-item__content .ibexa-dropdown__selection-info::after {
+  background: #db0032;
+}
+.ibexa-sf-form-languages-item--invalid .ibexa-sf-form-languages-item__content .ibexa-dropdown .ibexa-dropdown__selected-item {
+  color: #db0032;
+}
+.ibexa-sf-form-languages-item--invalid .ibexa-sf-form-languages-item__content .ibexa-icon {
+  fill: #db0032;
+}
+
+.ibexa-sf-form-languages-item-placeholder {
+  display: flex;
+  border: 0.125rem solid #4191ff;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+.ibexa-sf-form-languages-item-placeholder--hidden {
+  display: none;
+}
+
+.ibexa-site-factory-toggle-group__checkbox {
+  margin: 0 0.4375rem 0 -0.625rem;
+}
+.ibexa-site-factory-toggle-group .ibexa-card__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.ibexa-site-factory-toggle-group .ibexa-card__header .form-check {
+  display: flex;
+  align-items: center;
+}
+.ibexa-site-factory-toggle-group__actions {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ibexa-table--global-properties .ibexa-table__thumbnail {
+  max-width: 10rem;
+  max-height: 6.25rem;
+}
+
+.ibexa-sf-grid-view-site-item__info {
+  display: flex;
+  padding: 1rem;
+}
+.ibexa-sf-grid-view-site-item__status-container {
+  width: 1.25rem;
+  display: flex;
+}
+.ibexa-sf-grid-view-site-item__title-container {
+  width: calc(100% - 2.5rem);
+}
+.ibexa-sf-grid-view-site-item__sub-title {
+  margin-top: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+.ibexa-sf-grid-view-site-item__actions-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 1.25rem;
+}
+.ibexa-sf-grid-view-site-item__actions-container .ibexa-popup-menu {
+  left: 1.375rem;
+}
+
+.ibexa-site-factory-language-selector {
+  display: inline-block;
+  position: relative;
+}
+.ibexa-site-factory-language-selector__list-wrapper {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 1.1875rem;
+  right: -0.625rem;
+  transform: translate(100%, -50%);
+  opacity: 1;
+  text-align: left;
+  background-color: #ae1164;
+  padding: 0.5625rem;
+  border-radius: 0.25rem;
+  min-width: 18.75rem;
+}
+.ibexa-site-factory-language-selector__list-wrapper--visible {
+  display: block;
+}
+.ibexa-site-factory-language-selector__list-triangle {
+  position: absolute;
+  left: -0.3125rem;
+  top: calc(50% - 0.3125rem);
+}
+.ibexa-site-factory-language-selector__list-triangle:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.3125rem 0 0.3125rem 0.3125rem;
+  border-color: transparent transparent transparent #ae1164;
+  position: absolute;
+  z-index: 1;
+  transform: scaleX(-1);
+}
+.ibexa-site-factory-language-selector__title {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.ibexa-site-factory-language-selector__list {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f6;
+  padding: 0.5rem;
+  max-height: 18.75rem;
+  overflow: auto;
+}
+.ibexa-site-factory-language-selector__list .ibexa-btn--save-language {
+  background-color: #ffffff;
+  color: #ae1164;
+  padding: 0.5625rem 1.5rem;
+  text-align: left;
+  white-space: nowrap;
+  margin: 0.25rem 0;
+}
+.ibexa-site-factory-language-selector__list .ibexa-btn--save-language--hidden {
+  display: none;
+}
+
+.ibexa-site-factory-info {
+  display: flex;
+  align-items: flex-start;
+}
+.ibexa-site-factory-info__status {
+  padding-right: 0.5rem;
+}
+.ibexa-site-factory-info__root-link {
+  font-size: 0.75rem;
+}
+
+.ibexa-sf-domain {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  position: relative;
+}
+.ibexa-sf-domain:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: #71767c;
+  width: 0.75rem;
+  height: 0.0625rem;
+}
+.ibexa-sf-domain:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -50%;
+  background-color: #71767c;
+  width: 0.0625rem;
+  height: 100%;
+}
+.ibexa-sf-domain__url {
+  padding: 0 0.25rem 0 0.5rem;
+}
+.ibexa-sf-domain__icon {
+  display: flex;
+}
+
+.ibexa-sf-sections__section {
+  margin-bottom: 2.25rem;
+}
+.ibexa-sf-sections__section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.ibexa-sf-sections__section-header-title {
+  margin: 0;
+}
+.ibexa-sf-sections__section-body .ibexa-collapse__header {
+  padding: 0 0.5rem 0 1.125rem;
+}
+.ibexa-sf-sections__section-body .ibexa-collapse__toggle-btn--status {
+  margin-left: auto;
+}
+.ibexa-sf-sections__section-body .ibexa-collapse__body-content {
+  padding: 0.75rem 1.5rem;
+}
+
+.ibexa-sf-edit-widget {
+  margin-bottom: 1.5rem;
+}
+.ibexa-sf-edit-widget:last-child {
+  margin-bottom: 0;
+}
+.ibexa-sf-edit-widget.is-invalid .ibexa-tag-view-select,
+.ibexa-sf-edit-widget.is-invalid .ibexa-sf-form-languages {
+  border: 0.0625rem solid #db0032;
+  background-color: #fbe5ea;
+}
+.ibexa-sf-edit-widget.is-invalid .ibexa-tag-view-select__info,
+.ibexa-sf-edit-widget.is-invalid .ibexa-sf-form-languages__info {
+  color: #db0032;
+}
+
+.ibexa-sf-public-access {
+  min-height: 37.5rem;
+  padding: 1rem;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #cfd1d3;
+}
+.ibexa-sf-public-access__list-actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem;
+}
+.ibexa-sf-public-access__list-actions-title {
+  font-size: 0.875rem;
+}
+.ibexa-sf-public-access__list-item {
+  margin-bottom: 1rem;
+}
+.ibexa-sf-public-access.is-invalid {
+  background-color: #fbe5ea;
+}

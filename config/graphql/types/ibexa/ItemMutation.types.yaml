@@ -1,0 +1,214 @@
+ItemMutation:
+    type: object
+    inherits:
+        - PlatformMutation
+    config:
+        fields:
+            createArticle:
+                type: ArticleItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "article", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: ArticleItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateArticle:
+                type: ArticleItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: ArticleItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createFolder:
+                type: FolderItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "folder", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: FolderItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateFolder:
+                type: FolderItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: FolderItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createForm:
+                type: FormItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "form", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: FormItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateForm:
+                type: FormItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: FormItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createTag:
+                type: TagItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "tag", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: TagItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateTag:
+                type: TagItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: TagItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createLandingPage:
+                type: LandingPageItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "landing_page", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: LandingPageItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateLandingPage:
+                type: LandingPageItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: LandingPageItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createProductCategoryTag:
+                type: ProductCategoryTagItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "product_category_tag", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: ProductCategoryTagItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateProductCategoryTag:
+                type: ProductCategoryTagItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: ProductCategoryTagItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createEditor:
+                type: EditorItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "editor", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: EditorItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateEditor:
+                type: EditorItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: EditorItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createUser:
+                type: UserItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "user", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: UserItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateUser:
+                type: UserItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: UserItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createUserGroup:
+                type: UserGroupItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "user_group", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: UserGroupItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateUserGroup:
+                type: UserGroupItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: UserGroupItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createFile:
+                type: FileItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "file", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: FileItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateFile:
+                type: FileItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: FileItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createImage:
+                type: ImageItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "image", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: ImageItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateImage:
+                type: ImageItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: ImageItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createCustomerPortal:
+                type: CustomerPortalItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "customer_portal", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: CustomerPortalItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateCustomerPortal:
+                type: CustomerPortalItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: CustomerPortalItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }
+            createCustomerPortalPage:
+                type: CustomerPortalPageItem!
+                resolve: '@=mutation("CreateDomainContent", args["input"], "customer_portal_page", args["parentLocationId"], args["language"])'
+                args:
+                    input: { type: CustomerPortalPageItemCreateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    parentLocationId: { type: Int! }
+            updateCustomerPortalPage:
+                type: CustomerPortalPageItem!
+                resolve: '@=mutation("UpdateDomainContent", args["input"], args, args["versionNo"], args["language"])'
+                args:
+                    input: { type: CustomerPortalPageItemUpdateInput! }
+                    language: { type: RepositoryLanguage!, description: 'The language the content should be created/updated in.' }
+                    id: { type: ID, description: 'ID of the content item to update' }
+                    contentId: { type: Int, description: 'Repository content ID of the content item to update' }
+                    versionNo: { type: Int, description: 'Optional version number to update. If it is a draft, it is saved, not published. If it is archived, it is used as the source version for the update, to complete missing fields.' }

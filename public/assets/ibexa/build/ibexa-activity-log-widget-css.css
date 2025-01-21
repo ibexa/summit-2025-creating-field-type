@@ -1,0 +1,98 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@symfony/webpack-encore/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./vendor/ibexa/activity-log/src/bundle/Resources/public/scss/blocks/ibexa-recent-activity.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ibexa-al-block__header {
+  margin-bottom: 1rem;
+}
+.ibexa-al-block__tiles {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 0.5rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0.25rem 1.375rem 2.9375rem 0 rgba(52, 116, 204, 0.05);
+}
+.ibexa-al-block__tiles--profile {
+  box-shadow: none;
+  padding: 0;
+}
+.ibexa-al-block__date {
+  padding-bottom: 0.75rem;
+  border-bottom: 0.0625rem solid #e0e0e8;
+  color: #71767c;
+}
+.ibexa-al-block__date:not(:first-child) {
+  margin-top: 0.75rem;
+}
+.ibexa-al-block__tile {
+  padding: 0.5rem 0.75rem;
+  background-color: #fbfbfc;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+}
+.ibexa-al-block__time {
+  margin-bottom: 0.75rem;
+  color: #71767c;
+}
+.ibexa-al-block__content {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.ibexa-al-block__content > * {
+  margin-right: 0.1875rem;
+}
+.ibexa-al-block__content-name--overflowed {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ibexa-al-block__avatar {
+  display: inline-flex;
+  align-items: center;
+}
+.ibexa-al-block__user-name {
+  margin-left: 0.125rem;
+  font-weight: 600;
+}
+.ibexa-al-block__thumbnail {
+  position: relative;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.ibexa-al-block__show-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+.ibexa-al-block__show-more-btn .ibexa-icon {
+  margin: 0 0 0 0.25rem;
+  transform: rotate(180deg);
+  transition: transform 0.2s;
+}
+.ibexa-al-block__show-more-btn.collapsed .ibexa-icon {
+  transform: rotate(0deg);
+}
+.ibexa-al-block__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 0.0625rem solid #e0e0e8;
+  margin-top: 0.75rem;
+}
+.ibexa-al-block__all-activity-btn {
+  margin: 0.3125rem 0 0.0625rem;
+}
+
+.ibexa-al-block-collapsible-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fa;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  gap: 0.75rem;
+}
+.ibexa-al-block-collapsible-list__item {
+  margin: 0 1rem 0;
+}

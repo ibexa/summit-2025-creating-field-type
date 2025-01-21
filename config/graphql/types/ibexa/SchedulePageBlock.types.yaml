@@ -1,0 +1,24 @@
+SchedulePageBlock:
+    type: object
+    inherits:
+        - BasePageBlock
+    config:
+        fields:
+            limit:
+                type: Int
+                resolve: '@=value.getAttribute("limit").getValue()'
+            events:
+                type: '[SchedulerBlockEvent]'
+                resolve: '@=value.getAttribute("events").getValue()'
+            snapshots:
+                type: '[SchedulerBlockSnapshot]'
+                resolve: '@=value.getAttribute("snapshots").getValue()'
+            initialItems:
+                type: '[SchedulerBlockItem]'
+                resolve: '@=value.getAttribute("initial_items").getValue()'
+            slots:
+                type: '[SchedulerBlockSlot]'
+                resolve: '@=value.getAttribute("slots").getValue()'
+            loadedSnapshot:
+                type: SchedulerBlockSnapshot
+                resolve: '@=value.getAttribute("loaded_snapshot").getValue()'

@@ -1,0 +1,7 @@
+QuickActionsPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/dashboard/blocks/quick_actions.html.twig'
+                description: 'Default block layout'

@@ -1,0 +1,7 @@
+DynamicTargetingPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/personalization/page_builder/blocks/dynamic_targeting.html.twig'
+                description: 'Default block layout'

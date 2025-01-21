@@ -1,0 +1,7 @@
+RichtextPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/richtext.html.twig'
+                description: 'Default view'

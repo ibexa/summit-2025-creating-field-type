@@ -1,0 +1,28 @@
+ContentTypeIdentifier:
+    type: enum
+    config:
+        values:
+            article:
+                description: 'No description available'
+            folder:
+                description: 'No description available'
+            form:
+                description: 'No description available'
+            tag:
+                description: 'No description available'
+            landing_page: {  }
+            product_category_tag:
+                description: 'No description available'
+            editor: {  }
+            user:
+                description: 'No description available'
+            user_group:
+                description: 'No description available'
+            file:
+                description: 'No description available'
+            image:
+                description: 'No description available'
+            customer_portal:
+                description: 'No description available'
+            customer_portal_page:
+                description: 'No description available'

@@ -1,0 +1,7 @@
+CommonContentPageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@ibexadesign/dashboard/blocks/common_content.html.twig'
+                description: 'Default view'

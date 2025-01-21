@@ -1,0 +1,7 @@
+SchedulePageBlockViews:
+    type: enum
+    config:
+        values:
+            default:
+                value: '@IbexaFieldTypePage/blocks/schedule.html.twig'
+                description: 'Default block layout'
