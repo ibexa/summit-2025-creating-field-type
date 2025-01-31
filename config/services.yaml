@@ -22,3 +22,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\FieldType\Point2D\Type:
+        tags:
+            - { name: ibexa.field_type, alias: point2d }
+            - { name: ibexa.admin_ui.field_type.form.mapper.value, fieldType: point2d }
+            - { name: ibexa.admin_ui.field_type.form.mapper.definition, fieldType: point2d }
+
